@@ -1,0 +1,41 @@
+{
+  "name": "stratum-pool",
+  "version": "1.0.0",
+  "description": "node stratum pool",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zuz99/stratum-pool.git"
+  },
+  "keywords": [
+    "stratum",
+    "stratum",
+    "pool",
+    "node",
+    "stratum"
+  ],
+  "author": "andriautis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zuz99/stratum-pool/issues"
+  },
+  "homepage": "https://github.com/Zuz99/stratum-pool#readme"
+  "dependencies": {
+        "async": "^3.2.0",
+        "base58-native": "^0.1.4",
+        "bchaddrjs": "^0.4.9",
+        "bignum": "^0.13.1",
+        "bitcoinjs-lib": "^5.1.10",
+        "multi-hashing": "git://github.com/Zuz99/node-multi-hashing-1.git"
+		"bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+        "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
+        "verushash": "git+https://github.com/VerusCoin/verushash-node#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1",
+        "merkle-bitcoin": "^1.0.2",
+        "promise": "^8.0.1"
+}

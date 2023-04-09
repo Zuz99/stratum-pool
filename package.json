@@ -1,29 +1,35 @@
 {
-  "name": "stratum-pool",
-  "version": "1.0.0",
-  "description": "node stratum pool",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zuz99/stratum-pool.git"
-  },
-  "keywords": [
-    "stratum",
-    "stratum",
-    "pool",
-    "node",
-    "stratum"
-  ],
-  "author": "andriautis",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Zuz99/stratum-pool/issues"
-  },
-  "homepage": "https://github.com/Zuz99/stratum-pool#readme"
-  "dependencies": {
+    "name": "stratum-pool",
+    "version": "0.0.1",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt",
+        "yespower",
+        "lyra2re2"
+    ],
+    "homepage": "https://github.com/digvpn/node-stratum-pool-1",
+    "bugs": {
+        "url": "https://github.com/digvpn/node-stratum-pool-1/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/digvpn/node-stratum-pool-1.git"
+    },
+    "dependencies": {
         "async": "^3.2.0",
         "base58-native": "^0.1.4",
         "bchaddrjs": "^0.4.9",
@@ -35,7 +41,7 @@
         "verushash": "git+https://github.com/VerusCoin/verushash-node#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1",
         "merkle-bitcoin": "^1.0.2",
         "promise": "^8.0.1"
-	},
+    },
     "engines": {
         "node": ">=8.17"
     }
